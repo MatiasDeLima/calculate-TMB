@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Basal Calculator App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__options" id="container-options">
+            <div class="container__options-top">
+                <button class="button" id="button-mas">Masculino</button>
+                <button class="button" id="button-fem">Feminino</button>
+            </div> 
+
+            <div class="content-1" id="masculino">
+                <h2>Calcule Your Basal</h2>
+                <form action="" class="form" id="calculate-form">
+                    <input type="number" placeholder="Enter Your kg" class="input" id="calculate-kg">
+                    <input type="number" placeholder="Enter Your cm" class="input" id="calculate-cm">
+                    <input type="number" placeholder="Enter Your year old" class="input" id="calculate-id">
+                    <button type="submit" class="button">Calculate</button>
+    
+                    <p class="message" id="calculate-message"></p>
+                </form>
+            </div>
+
+            <div class="content-2" id="feminino">
+                <h2>Calcule Your Basal</h2>
+                <form action="" class="form" id="calculate-form-2">
+                    <input type="number" placeholder="Enter Your kg" class="input" id="calculate-kg-2">
+                    <input type="number" placeholder="Enter Your cm" class="input" id="calculate-cm-2">
+                    <input type="number" placeholder="Enter Your year old" class="input" id="calculate-id-2">
+                    <button type="submit" class="button">Calculate</button>
+    
+                    <p class="message" id="calculate-message-2"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
